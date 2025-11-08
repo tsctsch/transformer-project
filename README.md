@@ -36,8 +36,8 @@
 ### 方法一：使用运行脚本（推荐）
 ```bash
 # 克隆项目
-git clone <your-repo-url>
-cd transformer-project/src
+git clone https://github.com/tsctsch/transformer-project.git
+cd transformer-project/scripts
 
 # 赋予执行权限
 chmod +x run.sh
@@ -259,10 +259,9 @@ class PositionalEncoding(nn.Module):
 ## 📧 联系信息
 
 如有问题，请通过以下方式联系：
-- 邮箱: [your-email@example.com]
-- GitHub: [your-username]
+- 邮箱: [25120307@example.com]
+- GitHub: [tsctsch]
 
 ---
 
 *最后更新: 2025年11月*
-```
