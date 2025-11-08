@@ -1,0 +1,39 @@
+# 在项目根目录创建.gitignore文件，内容如下：
+
+# 数据集文件（如果文件太大）
+dataset/IWSLT2017/
+
+# 实验结果（每次运行都会重新生成）
+results/
+
+# Python缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# 环境文件
+.env
+.venv
+env/
+venv/
+
+# IDE文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+
+# 模型文件（如果太大）
+*.pth
+*.pt
+*.bin
